@@ -8,7 +8,7 @@
 
 **Batch vs Stochastic vs Mini-batch gradient descent** 
 
-- mini-batch的核心算法如图![Image text](https://github.com/yinjw1995/neural_network/blob/master/note_pictures\1.jpg)
+- mini-batch的核心算法如图![1](https://raw.githubusercontent.com/yinjw1995/neural_network/master/note_pictures/1.jpg)
 
 - 如果考虑极端的情况，每一个batch的尺寸为m，则只有一个，我们可以称之为batch梯度下降，如果是尺寸为1，则有m个，这就是随机梯度下降
 
