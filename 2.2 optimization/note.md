@@ -8,7 +8,7 @@
 
 **Batch vs Stochastic vs Mini-batch gradient descent** 
 
-- mini-batch的核心算法如图![1](F:\program\neural_network\note_pictures\1.jpg)
+- mini-batch的核心算法如图![1](https://github.com/yinjw1995/neural_network/tree/master/note_pictures\1.jpg)
 
 - 如果考虑极端的情况，每一个batch的尺寸为m，则只有一个，我们可以称之为batch梯度下降，如果是尺寸为1，则有m个，这就是随机梯度下降
 
@@ -16,9 +16,9 @@
   - stochastic gradient descent 针对单一样本做backward prop，很快看见损失值，因为只算一个样本，所以导致每计算出来的梯度并不一定是指向全局最低的，只是大致朝着减小的方向，因此包含很多噪声，并且最终不会收敛，只是在一个较小值附近波动。同样降低了效率
   - 因此，合理的选择mini-batch的尺寸可以使得效率最高
 
-  ![2](F:\program\neural_network\note_pictures\2.png)
+  ![2](https://github.com/yinjw1995/neural_network/tree/master/note_pictures\2.png)
 
-  ![3](F:\program\neural_network\note_pictures\3.png)
+  ![3](https://github.com/yinjw1995/neural_network/tree/master/note_pictures\3.png)
 
 - **Mini-batch 大小的选择**
 
@@ -26,7 +26,6 @@
   - 如果训练样本的大小比较大时，典型的大小为： $2^6、2^7、，，，、2^{10}$ ；
   - Mini-batch的大小要符合CPU/GPU内存。
 
-  ![4](F:\program\neural_network\note_pictures\4.png)
+  ![4](https://github.com/yinjw1995/neural_network/tree/master/note_pictures\4.png)
 
   ​
->>>>>>> learning of mini-batch
