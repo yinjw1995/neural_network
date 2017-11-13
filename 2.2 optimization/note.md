@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-![QQ截图20171113151132](https://github.com/yinjw1995/neural_network/blob/master/note_pictures/QQ%E6%88%AA%E5%9B%BE20171113151132.png)
-=======
-### 优化算法
-
 #### **mini-batch梯度下降法**
 
 - 及其学习一般伴随着巨大的计算量和训练许多模型才可以找到合理的模型，在大数据时代，如果可以提高算法的计算速度可以很好的提高工作效率，因此，介绍了mini-batch
